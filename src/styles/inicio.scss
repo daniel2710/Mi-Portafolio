@@ -1,0 +1,98 @@
+.inicio{
+    background-color: #2A2C30;
+}
+
+.location{
+    color: #01c4e7;
+}
+
+.redes{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #01c4e7;
+    font-size: 1.3rem;
+}
+
+.redes li{
+    cursor: pointer;
+}
+
+.redes-a{
+    color: #01c4e7;
+}
+
+.title{
+    font-size: 1.3rem;
+}
+
+.skill{
+    color: #01c4e7;
+    font-size: 1.3rem;
+}
+
+.text{
+    font-size: 1.5rem;
+}
+
+.div-text-estatic{
+    padding: 10px;
+}
+
+.btn-dowload{
+    background-color:  #01c4e7;
+}
+
+
+.img{
+    //border-radius: 30px;
+    background-image: url("../assets/img/mapa.png");
+    box-shadow: -16px 17px 5px 0px #151515;
+    border-radius: 50%;
+    margin: auto;
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: animateEarth 15s linear infinite;
+    width: 417px;
+    height: 417px;
+}
+
+@keyframes animateEarth {
+    0%{
+        background-position: 0 0;
+    }
+
+    100%{
+        background-position: -843px 0;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .inicio{
+        flex-direction: column-reverse;
+    }
+
+    .img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .btn-dowload{
+        margin-bottom: 10px;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    .title{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .redes{
+        width: 100% !important;
+    }
+}
+  
