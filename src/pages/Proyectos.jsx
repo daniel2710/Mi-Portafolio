@@ -7,7 +7,7 @@ import '../styles/proyectos.scss';
 
 const Proyectos = () => {
   return (
-    <div className='proyectos row m-0 p-0'>
+    <div id='proyectos' className='proyectos row m-0 p-0'>
     <h3 className='text-center text-white mt-5'>Proyectos y Experiencia</h3>
       <div className='col-md-6 d-flex justify-content-around mt-4'>
         

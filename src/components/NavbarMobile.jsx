@@ -14,16 +14,13 @@ const NavbarMobile = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a className="nav-link" href="/">Inicio</a>
+                        <a className="nav-link" href="#habilidades">Habilidades</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/">Habilidades</a>
+                        <a className="nav-link" href="#proyectos">Proyectos</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/">Proyectos</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/">Educación</a>
+                        <a className="nav-link" href="#educacion">Educación</a>
                     </li>
                 </ul>
             </div>

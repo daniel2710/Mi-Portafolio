@@ -3,7 +3,7 @@ import '../styles/educacion.scss';
 
 const Educacion = () => {
   return (
-    <div className='educacion row p-0 m-0'>
+    <div id='educacion' className='educacion row p-0 m-0'>
       <h3 className='text-light text-center mb-5 mt-5'>Educación y Certificaciones</h3>
       <div className='col-md-6'>
 

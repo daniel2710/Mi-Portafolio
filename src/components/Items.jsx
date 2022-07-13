@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
+import '../styles/items.scss';
 
 const Items = () => {
   return (
     <>
-        <li>Inicio</li>
-        <li>Habilidades</li>
-        <li>Proyectos</li>
-        <li>Educación</li>
+        <li><a href='#habilidades'>Habilidades</a></li>
+        <li><a href='#proyectos'>Proyectos</a></li>
+        <li><a href='#educacion'>Educación</a></li>
     </>
   )
 }
 
-export default Items
+export default Items;

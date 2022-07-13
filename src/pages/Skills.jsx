@@ -3,7 +3,7 @@ import '../styles/skills.scss';
 
 const Skills = () => {
   return (
-    <div className='row text-white row-skills p-0 m-0'>
+    <div id='habilidades' className='row text-white row-skills p-0 m-0'>
       <div>
           <h3 className='text-center m-4'>Tecnologías</h3>
       </div>
