@@ -1,5 +1,5 @@
 import React, {} from "react";
-import CV from '../assets/pdf/DANIEL DE ÁVILA.pdf';
+import CV from '../assets/pdf/CV-DANIEL DE ÁVILA.pdf';
 import "../styles/inicio.scss";
 import {AiFillLinkedin, AiFillTwitterCircle, AiFillGithub} from 'react-icons/ai';
 import {ImLocation} from 'react-icons/im';
