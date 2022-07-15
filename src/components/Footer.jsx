@@ -11,7 +11,7 @@ const Footer = () => {
 
 
         <div className="text-center text-light p-3">
-            © 2022 Copyright: Daniel De Ávila
+            ©2022 Copyright: Daniel De Ávila
         </div>
 
     </footer>
